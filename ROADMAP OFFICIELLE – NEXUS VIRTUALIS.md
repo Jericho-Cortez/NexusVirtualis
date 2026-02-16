@@ -2,9 +2,9 @@ _(Optimisée 8 Go RAM – 7 jours – Soutenance collective)_
 
 ---
 
-# 🔹 PHASE 0 – PRÉREQUIS TECHNIQUES (Jour 1 – Matin)
+# PHASE 0 – PRÉREQUIS TECHNIQUES (Jour 1 – Matin)
 
-## 🎯 Objectif
+##  Objectif
 
 Préparer un environnement stable pour la virtualisation imbriquée.
 
@@ -27,7 +27,7 @@ Préparer un environnement stable pour la virtualisation imbriquée.
     - Debian netinst
         
 
-## 📸 Screens obligatoires
+##  Screens obligatoires
 
 - BIOS → Virtualization Enabled
     
@@ -40,9 +40,9 @@ Préparer un environnement stable pour la virtualisation imbriquée.
 
 ---
 
-# 🔹 PHASE 1 – BASES THÉORIQUES (Jour 1 – Après-midi)
+#  PHASE 1 – BASES THÉORIQUES (Jour 1 – Après-midi)
 
-## 🎯 Objectif
+##  Objectif
 
 Comprendre Type 1 vs Type 2 avant pratique.
 
@@ -55,7 +55,7 @@ Comprendre Type 1 vs Type 2 avant pratique.
 - Cas d’usage entreprise
     
 
-## 📸 Screens
+##  Screens
 
 - Schéma comparatif
     
@@ -66,7 +66,7 @@ Comprendre Type 1 vs Type 2 avant pratique.
 
 ---
 
-# 🔹 PHASE 2 – HYPER-V (Jour 2)
+#  PHASE 2 – HYPER-V (Jour 2)
 
 Hyperviseur : Hyper-V
 
@@ -85,7 +85,7 @@ VMware (Type 2)
 |RAM|4 Go|
 |Disque|60 Go|
 
-## 📸 Screens clés
+##  Screens clés
 
 - Création VM Windows
     
@@ -100,11 +100,11 @@ VMware (Type 2)
 - Utilisation RAM/CPU
     
 
-🧠 Supprimer la VM après capture pour libérer RAM.
+ Supprimer la VM après capture pour libérer RAM.
 
 ---
 
-# 🔹 PHASE 3 – ESXi (Jour 3)
+#  PHASE 3 – ESXi (Jour 3)
 
 Hyperviseur : VMware ESXi
 
@@ -112,7 +112,7 @@ Hyperviseur : VMware ESXi
 
 Activer "Expose hardware virtualization"
 
-## 📸 Screens
+##  Screens
 
 - Paramètre virtualisation imbriquée
     
@@ -129,7 +129,7 @@ Supprimer ensuite.
 
 ---
 
-# 🔹 PHASE 4 – PROXMOX VE (Jour 4)
+#  PHASE 4 – PROXMOX VE (Jour 4)
 
 Hyperviseur : Proxmox VE
 
@@ -137,7 +137,7 @@ Hyperviseur : Proxmox VE
 | RAM | 4 Go |  
 | Disk | 40 Go |
 
-## 📸 Screens
+##  Screens
 
 - Installation
     
@@ -152,11 +152,11 @@ Hyperviseur : Proxmox VE
 
 ---
 
-# 🔹 PHASE 5 – XCP-ng (Jour 5)
+#  PHASE 5 – XCP-ng (Jour 5)
 
 Hyperviseur : XCP-ng
 
-## 📸 Screens
+##  Screens
 
 - Installation
     
@@ -169,9 +169,9 @@ Hyperviseur : XCP-ng
 
 ---
 
-# 🔹 PHASE 6 – MIGRATIONS (Jour 6)
+#  PHASE 6 – MIGRATIONS (Jour 6)
 
-🎯 Objectif : Comprendre formats disques & compatibilité
+ Objectif : Comprendre formats disques & compatibilité
 
 ## Migration réelle conseillée
 
@@ -179,7 +179,7 @@ Proxmox → ESXi
 
 ## Autres migrations : documentées théoriquement
 
-## 📸 Screens
+##  Screens
 
 - Export OVA / QCOW2
     
@@ -194,7 +194,7 @@ Proxmox → ESXi
 
 ---
 
-# 🔹 PHASE 7 – BACKUP (Jour 7 – Matin)
+#  PHASE 7 – BACKUP (Jour 7 – Matin)
 
 Installer :  
 Proxmox Backup Server
@@ -206,7 +206,7 @@ Proxmox Backup Server
 - Rétention : 3 backups
     
 
-## 📸 Screens
+##  Screens
 
 - Datastore créé
     
@@ -219,7 +219,7 @@ Proxmox Backup Server
 
 ---
 
-# 🔹 PHASE 8 – CLUSTER (À 2)
+#  PHASE 8 – CLUSTER (À 2)
 
 Cluster sur Proxmox VE
 
@@ -227,7 +227,7 @@ Cluster sur Proxmox VE
 
 Bridged + IP statique (à l’école)
 
-## 📸 Screens
+##  Screens
 
 - Création cluster
     
@@ -240,7 +240,7 @@ Bridged + IP statique (à l’école)
 
 ---
 
-# 🎤 STRUCTURE SOUTENANCE
+#  STRUCTURE SOUTENANCE
 
 1. Introduction & architecture
     
