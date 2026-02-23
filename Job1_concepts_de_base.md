@@ -214,10 +214,10 @@ Pour le Job 08 (migrations), tu devras **convertir** les formats disques entre h
 
 ## Erreurs Fréquentes à Éviter
 
-❌ **Oublier d'activer VT-x dans le BIOS** → ESXi/Proxmox ne démarreront pas
-❌ **Allouer trop de RAM** → Windows 11 hôte va swapper (lenteur extrême)
-❌ **Ne pas configurer le réseau en NAT** → VMs sans accès Internet
-❌ **Confondre Type 1 et Bare Metal** → Ce sont synonymes !
+**Oublier d'activer VT-x dans le BIOS** → ESXi/Proxmox ne démarreront pas
+**Allouer trop de RAM** → Windows 11 hôte va swapper (lenteur extrême)
+**Ne pas configurer le réseau en NAT** → VMs sans accès Internet
+**Confondre Type 1 et Bare Metal** → Ce sont synonymes !
 
 ***
 
