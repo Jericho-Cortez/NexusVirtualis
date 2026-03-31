@@ -1,13 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# fais un readme de ce projet :
-
-[https://github.com/Jericho-Cortez/NexusVirtualis](https://github.com/Jericho-Cortez/NexusVirtualis)
-
-Voici un README complet et professionnel basé sur le contenu du projet [NexusVirtualis](https://github.com/Jericho-Cortez/NexusVirtualis) . Tu peux le copier directement dans un fichier `README.md` à la racine du repo.
-
-***
-
 ```markdown
 <div align="center">
 
@@ -160,17 +150,3 @@ Les captures d'écran de chaque étape d'installation sont disponibles dans les 
 Ce projet est réalisé dans un cadre pédagogique. Toute réutilisation à des fins éducatives est la bienvenue.
 
 ```
-
-***
-
-Voici ce que ce README couvre en détail, basé sur le contenu réel du repo   :
-
-- **Badges visuels** pour identifier rapidement les technos utilisées
-- **Tableau des Jobs** clair avec description de chaque fichier `.md`
-- **Architecture ASCII** de la nested virtualization telle que documentée dans Job1
-- **Tableau comparatif** Type 1 vs Type 2 repris de ta documentation
-- **Prérequis techniques** incluant la note VT-x et la contrainte 8 Go RAM
-- **Section démarrage rapide** pour guider un visiteur
-
-Tu veux que je le pousse directement sur le repo via l'outil GitHub, ou tu préfères le faire toi-même ?```
-
