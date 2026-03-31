@@ -123,7 +123,7 @@ Avant de commencer les labs, assure-toi de disposer de :
 1. Cloner ce dépôt :
    ```bash
    git clone https://github.com/Jericho-Cortez/NexusVirtualis.git
-```
+   ```
 
 2. Consulter les fichiers dans l'ordre des Jobs (Job1 → Job6)
 3. Suivre les étapes documentées dans chaque `.md` en vous appuyant sur les captures d'écran associées
